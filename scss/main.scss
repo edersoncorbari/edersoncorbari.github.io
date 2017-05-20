@@ -1,0 +1,65 @@
+@import "normalize";
+@import "fonts";
+
+$color-bg: #333333;
+$color-fg: #f5f5dc; // beige
+$color-link: #f5f5dc;
+$iphone: 375px;
+$width: 700px;
+
+body {
+	background: $color-bg;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	color: $color-fg;
+	max-width: $width;
+	padding: 8em 4em 4em 4em;
+	margin: 0 auto;
+    font-family: "mono", monospace;
+    font-size: 1rem;
+	font-weight: 400;
+	line-height: 2;
+	@media (max-width: ($width)) {
+		padding: 4em 2em;
+	}
+}
+
+#foo {
+	position: fixed;
+	top: 0; left: 0;
+	z-index: -1;
+	overflow: hidden;
+}
+
+h1 {
+	color: $color-fg;
+	margin: 0 0 0.5em 0;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 4rem;
+	line-height: 1.2;
+}
+
+p {
+	margin: 1em 0;
+	font-size: 1rem;
+}
+
+a {
+	color: $color-link;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 0.15em solid $color-link;
+	&:hover {
+		color: $color-link;
+	}
+	&:active {
+		color: $color-link;
+	}
+	&:visited {
+		color: $color-link;
+	}
+}
