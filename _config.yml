@@ -3,8 +3,9 @@ description: Things about software development
 meta_description: "Ederson Corbari Site, Blogging about software development"
 
 markdown: kramdown
-highlighter: pygments
-logo: false
+highlighter: rouge
+#highlighter: pygments
+#logo: false
 paginate: 15
 baseurl: /
 domain_name: 'https://edersoncorbari.github.io/'
@@ -12,5 +13,8 @@ domain_name: 'https://edersoncorbari.github.io/'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Ederson Corbari'
+url: 'https://edersoncorbari.github.com/'
+#url:            'blog url'
+
+author:         'Ederson de Moura Corbari'
+
