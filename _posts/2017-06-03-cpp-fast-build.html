@@ -1,0 +1,256 @@
+---
+layout: post
+title:  C++ Fast Build
+date:   2017-06-03
+---
+
+<h2>My project is slow to build</h2>
+
+
+<p>
+Often we develop our projects without worrying about standards or optimization issues, ehen the project is small this is 
+not a problem, but if the project is growing we start to have compile time problem.
+</p>
+
+<p>
+So what can we do to improve the project build time. Below some of the most critical points:
+</p>
+
+<ul>
+  <li>1. Get a faster computer (of course);</li>
+  <li>2. Only if needed: Forward Declarations;</li>
+  <li>3. Add guard conditions;</li>
+  <li>4. Split the build into pieces;</li>
+  <li>5. Use parallelism and precompiled headers;</b>
+  <li>6. Use shared libraries.</b>
+</ul>
+
+<p>
+This has to do with the physical structure of C++ and how the compiler works, this is very important in large projects.
+I will detail each point quoted and then we will test with a project.
+</p>
+
+<h3>1. Get a faster computer</h3>
+
+<p>
+This is quite obvious, a software developer primarily working with desktop application needs to have great hardware.
+If you do not have one, buy one.
+</p>
+
+
+<h3>2. Only if needed: Forward Declarations</h3>
+
+<p>
+In C++, when anything in a header file changes, all code that includes that header either directly or indirectly 
+must be recompiled. So it is important to minimize these dependencies. How?
+</p>
+
+<ul>
+  <li>Do not include "#include xxx.h" unnecessarily in the header class;</li>
+  <li>Avoid unnecessary membership.</li>
+</ul>
+
+<p>
+See the example below in the unnecessary class:
+</p>
+
+<pre class="prettyprint">
+...
+#include &lt;iostream&gt; // !!! Remove is not used !!!
+#include &lt;ostream&gt;  // !!! Remove is not used !!!
+#include &lt;vector&gt; 
+#include &lt;algorithm&gt; // !!! Remove is not used !!!
+
+class Base
+{
+    std::vector<int> printVector()
+    {
+        std::vector<int> v{1, 2, 3, 10, 25, 26, 3};
+        return v;
+    }
+};
+...
+</pre>
+
+<h3>3. Add guard conditions</h3>
+
+<p>
+It is very important to add the guards to the files and also add <a href="https://en.wikipedia.org/wiki/Pragma_once">#pragma once</a> to 
+avoid recompiling to that file. See the class file definition example:
+</p>
+
+<pre class="prettyprint">
+#pragma once
+#ifndef PROJECT_BASE_HXX
+#define PROJECT_BASE_HXX
+
+#include &lt;vector&gt; 
+
+class Base
+{
+    // Constructor.
+    Base();
+
+    // Destructor.
+    ~Base();
+
+    // Print my vector.
+    std::vector<int> printVector();
+};
+
+#endif // PROJECT_BASE_HXX
+</pre>
+
+<p>
+See the class implementation example:
+</p>
+
+<pre class="prettyprint">
+#ifndef PROJECT_BASE_HXX
+#include "base.hxx" 
+#define PROJECT_BASE_HXX
+
+#include &lt;iostream&gt; 
+
+Base::Base()
+{
+    std::cout &lt;&lt; "Constructor" &lt;&lt; std::endl; 
+}
+
+Base::~Base()
+{
+    std::cout &lt;&lt; "Destructor" &lt;&lt; std::endl; 
+}
+
+std::vector<int> Base::printVector()
+{
+    std::vector<int> v{1, 2, 3, 10, 25, 26, 3};
+    return v;
+}
+</pre>
+
+<h3>4. Split the build into pieces</h3>
+
+<p>
+Split the build into pieces, create libraries that can be reused and shared with other projects.
+For example, create a library of generic methods, a library that communicates with the database, 
+another library that sends data, and receives data from a server.
+</p>
+
+<p>
+See the solution diagram below:
+</p>
+
+<img src="{{ post.url }}/assets/blog/2017-06-03/project.png"><br>
+
+<h3>5. Use parallelism and precompiled headers</h3>
+
+<p>
+In the case of Unix environment we use the command <b>make</b> (maintain program dependencies) to build 
+the project, by default make does not use parallelism, so we have to enable it. To know how many cores my 
+processor uses the <b>lscpu</b> command in FreeBSD use <b>sysctl hw.model hw.machine hw.ncpu</b>, in my 
+case I have 4.
+</p>
+
+<p>
+So to build my project I will use the command <b>make -j4</b>. There are other build system like <b>ninja</b> or <b>bjam</b>, 
+I like to use ninja with <b>cmake</b> for small and medium projects. 
+</p>
+
+<h3>Use shared libraries</h3>
+
+<p>
+Use whenever possible shared library on Unix/Linux systems are the .so files on windows .dll and on Mac .dylib.
+Shared libraries reduce the amount of code that is duplicated in each program that makes use of the library, 
+keeping the binaries small. It also allows you to replace the shared object with one that is functionally equivalent, 
+but may have added performance benefits without needing to recompile the program that makes use of it. Shared libraries will, 
+however have a small additional cost for the execution of the functions as well as a run-time loading cost as all the 
+symbols in the library need to be connected to the things they use. Additionally, shared libraries can be loaded into 
+an application at run-time, which is the general mechanism for implementing binary plug-in systems.
+</p>
+
+
+<h3>Testing</h3>
+
+<p>
+I made the modifications I mentioned above in a library that I use for generic methods and the speed gain for compiling 
+was 20/30% for fast. Lets test:
+</p>
+
+<p>
+Install clang and ccache, cmake and ninja on your system. Now do the commands below:
+</p>
+
+<pre class="prettyprint">
+mkdir ~/test && cd ~/test
+git clone https://github.com/edersoncorbari/genesis.git
+cd genesis
+
+export CC="ccache clang"
+export CXX="ccache clang++"
+
+mkdir build && cd build
+cmake -GNinja ../
+ninja
+</pre>
+
+<p>
+The <b>ninja</b> enables by default the parallelism in the case of <b>make</b> you need to pass <b>-j</b> with number of cores 
+of your processor.
+</p>
+
+<pre class="prettyprint">
+mkdir build && cd build
+cmake ../
+make -j4
+</pre>
+
+<p>
+Let's calculate the build time:
+</p>
+
+<pre class="prettyprint">
+cd genesis
+rm -rf build
+
+mkdir build && cd build
+cmake -DCMAKE_BUILD_TYPE=Debug -GNinja ../
+date +"%T" &gt;&gt; elapsed.log && ninja -v && date +"%T" &gt;&gt; elapsed.log
+
+</pre>
+
+<p>
+Check the file on my test:
+</p>
+
+<pre class="prettyprint">
+cat elapsed.log
+
+14:23:54
+14:24:12
+</pre>
+
+<p>
+It takes 18 seconds to compile! It is! With some care you make your build faster and improve 
+your productivity.
+</p>
+
+<p>
+Programs that were used:
+</p>
+
+<ul>
+  <li><a href="https://cmake.org/">CMake</a></li>
+  <li><a href="https://ninja-build.org/">Ninja</a></li>
+  <li><a href="https://clang.llvm.org/">Clang</a></li>
+  <li><a href="https://clang.llvm.org/">Gcc</a></li>
+</ul>
+
+<p>
+Book recommendation:
+</p>
+
+<ul>
+  <li> <a href="https://www.amazon.com/exec/obidos/ASIN/0201633620/ref=nosim/gamesfromwith-20">Large-Scale C++ Software Design</a></li>
+</ul>
+
