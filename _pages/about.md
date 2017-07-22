@@ -18,7 +18,7 @@ title: "About"
 * I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/) as a workstation.
 * In my **spare time** I like to practice some sport, usually extreme sports such as equestrian polo, parachuting and crossfit. I love to travel and to know different cultures and to have contact with nature.
 * I also play a little piano, and I like to listen to songs of the most varied genres.
-* I also like aviation I am currently doing the pilot course (PP) proven in the [Aero Club](http://aeroclubesp.com.br/) of S&atilde;o Paulo, Brazil.
+* I also like aviation I am currently doing the pilot course (PP) private in the [Aero Club](http://aeroclubesp.com.br/) of S&atilde;o Paulo, Brazil.
 ## This site
 
 In the beginning the main reason I created this site was to document tips and tricks that I learned through my daily work. Very soon, however, I discovered that framing my posts in a form of a tutorial is much more suitable.
