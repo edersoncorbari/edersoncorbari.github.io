@@ -25,12 +25,12 @@ not a problem, but if the project is growing we start to have compile time probl
 
 So what can we do to improve the project build time. Below some of the most critical points:
 
-* 1. Get a faster computer (of course);
-* 2. Only if needed: Forward Declarations;
-* 3. Add guard conditions;
-* 4. Split the build into pieces;
-* 5. Use parallelism and precompiled headers;
-* 6. Use shared libraries.
+* Get a faster computer (of course);
+* Only if needed: Forward Declarations;
+* Add guard conditions;
+* Split the build into pieces;
+* Use parallelism and precompiled headers;
+* Use shared libraries.
 
 This has to do with the physical structure of C++ and how the compiler works, this is very important in large projects.
 I will detail each point quoted and then we will test with a project.
