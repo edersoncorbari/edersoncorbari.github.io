@@ -50,8 +50,7 @@ void TcpThread::onReadSocket()
 
 I had no need to encrypt the data that was transiting, but you can change it using the [QSslSocket](http://doc.qt.io/qt-5/qsslsocket.html) class if your data is stealthy.
 
-Regarding performance, it's still not a problem for me, but I'm doing tests, and in another moment I comment on that in a new post. It is easy to change and adapt, 
-any doubt or improvement does not exist to contact me.
+Regarding performance, it's still not a problem for me, but I'm doing tests, and in another moment I comment on that in a new post. It is easy to change and adapt.
 
 Programs that were used:
 

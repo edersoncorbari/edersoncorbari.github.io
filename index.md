@@ -13,7 +13,7 @@ feature_row:
     btn_label: "View List"
   - image_path: /assets/images/home-projects.jpg
     title: "Projects"
-    excerpt: "Overview of past and current projects."
+    excerpt: "Overview of past and current projects, opensource solutions."
     url: "/portfolio/"
     btn_label: "View List"
   - image_path: /assets/images/home-resources.jpg
