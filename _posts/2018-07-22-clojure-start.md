@@ -21,9 +21,8 @@ I've already studied and worked with various programming languages, but what str
 
 * Clojure is an alien dialect
 
-![Screen1]({{ site.url }}{{ site.baseurl }}/assets/images/blog/2018-07-22/clojure-predator.jpg)
+![Screen1]({{ site.url }}{{ site.baseurl }}/assets/images/blog/clojure-predator-1.jpg)
 {: .align-center}
-
 
 ## 1. Installing
 
@@ -171,4 +170,5 @@ user=> (time (def mapped-details (map alien-related-details (range 0 1000000))))
 ## Considerations
 
 Clojure is a very cool language to work on, at least it was my first impression, predicting to do other more advanced language tutorials, possibly using clojure for data analysis.
+
 
