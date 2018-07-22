@@ -26,7 +26,7 @@ I've already studied and worked with various programming languages, but what str
 
 ## 1. Installing
 
-I used FreeBSD to make this article, so to install clujure on FreeBSD simply type in the terminal the commands:
+I used FreeBSD to make this article, so to install Clojure on FreeBSD simply type in the terminal the commands:
 
 {%highlight bash%}
 pkg install clojure leiningen 
@@ -148,8 +148,6 @@ Let's create a fictional alien database:
   [social-security-numbers]
   (first (filter alien?
                  (map alien-related-details social-security-numbers))))
-
-(time (vampire-related-details 0))
 {%endhighlight%}
 
 Let's see how long it takes to execute the function below:
