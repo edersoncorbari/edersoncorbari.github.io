@@ -212,9 +212,8 @@ Get balance account: 15
 
 The above test add new accounts, then checks the balance, and then takes money out of the accounts. You can see more details of the implementation by looking at the project's README file.
 
-* https://github.com/edersoncorbari/small-bank
+* [https://github.com/edersoncorbari/small-bank](https://github.com/edersoncorbari/small-bank)
 
 ## Considerations
 
 This is project is only used for studies using clojure, developed by layman in the subject and perhaps not one of the best implementations, techniques and use of the language.
-
