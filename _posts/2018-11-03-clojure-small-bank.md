@@ -29,7 +29,7 @@ Before starting I will leave 3 book recommendations:
 
 # Tools
 
-My Dexter's labs:
+Dexter's labs:
 
 ![Development Environment]({{ site.url }}{{ site.baseurl }}/assets/images/blog/clojure-developments-vm.png)
 {: .align-center}
