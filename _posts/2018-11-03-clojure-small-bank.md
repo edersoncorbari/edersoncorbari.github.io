@@ -68,7 +68,7 @@ Now you need to raise the HTTP server.
 By default the server uses port 3000. On another terminal run the curl response test:
 
 {%highlight bash%}
-/launch-curl
+./launch-curl
 {%endhighlight%}
 
 You should get the following outputs in response:
