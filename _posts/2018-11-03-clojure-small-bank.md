@@ -18,8 +18,7 @@ tags:
 
 # Overview
 
-[Clojure](https://en.wikipedia.org/wiki/Clojure) is a passionate language that uses strong mathematical expressoes for you to write a code, I think it's cool.
-I am not a language expert, in fact in any language, I have a general profile, I decided to create a small banking application for study and testing purposes.
+[Clojure](https://en.wikipedia.org/wiki/Clojure) is a passionate language that uses strong mathematical expressions for you to write a code, I think it's cool. I am not a language expert, in fact in any language, I have a general profile, I decided to create a small banking application for study and testing purposes.
 
 Before starting I will leave 3 book recommendations:
 
