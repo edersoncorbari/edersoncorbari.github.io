@@ -27,12 +27,14 @@ Before starting I will leave 3 book recommendations:
 * [Professional Clojure By Jeremy Anderson](https://www.amazon.com/Professional-Clojure-Jeremy-Anderson/dp/1119267277/ref=sr_1_1?s=books&ie=UTF8&qid=1541364379&sr=1-1&keywords=professional+clojure&dpID=51lOOH6M%252BpL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch) It's rock and roll baby.
 * [Clojure for the Brave and True](https://www.braveclojure.com)
 
+# Tools
+
+My computer:
+
 ![Development Environment]({{ site.url }}{{ site.baseurl }}/assets/images/blog/clojure-developments-vm.png)
 {: .align-center}
 
-# Tools
-
-I've used clojure with leiningen and use the emacs editor that perfectly matches with clojure. For more information check here:
+I've used clojure with [Leiningen](https://leiningen.org)and use the [Emacs](https://www.gnu.org/software/emacs/) editor that perfectly matches with Clojure. For more information check here:
 
 * https://www.braveclojure.com/basic-emacs/
 
@@ -41,7 +43,7 @@ I've used clojure with leiningen and use the emacs editor that perfectly matches
 
 ## 1. Project Design 
 
-The idea of the mini bank is to create a rest API using Clojure, where the user can do:
+The idea of the small bank is to create a Rest API using Clojure, where the user can do:
 
 * 1. Create a new account if there is no.
 * 2. The user can put money into this account. 
