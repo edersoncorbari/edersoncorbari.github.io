@@ -33,7 +33,7 @@ Dexter's labs:
 ![Development Environment]({{ site.url }}{{ site.baseurl }}/assets/images/blog/clojure-developments-vm.png)
 {: .align-center}
 
-I've used clojure with [Leiningen](https://leiningen.org)and use the [Emacs](https://www.gnu.org/software/emacs/) editor that perfectly matches with Clojure. For more information check here:
+I've used clojure with [Leiningen](https://leiningen.org) and use the [Emacs](https://www.gnu.org/software/emacs/) editor that perfectly matches with Clojure. For more information check here:
 
 * https://www.braveclojure.com/basic-emacs/
 
@@ -44,12 +44,12 @@ I've used clojure with [Leiningen](https://leiningen.org)and use the [Emacs](htt
 
 The idea of the small bank is to create a Rest API using Clojure, where the user can do:
 
-* 1. Create a new account if there is no.
-* 2. The user can put money into this account. 
-* 3. The user can withdraw money from the account.
-* 4. The multi-threaded system controls the concurrency of multiple concurrent accesses.
-* 5. The operation is using a Rest Api.
-* 6. Check account balance.
+* Create a new account if there is no.
+* The user can put money into this account. 
+* The user can withdraw money from the account.
+* The multi-threaded system controls the concurrency of multiple concurrent accesses.
+* The operation is using a Rest Api.
+* Check account balance.
 
 ### 1.1 Start 
 
@@ -75,11 +75,9 @@ You should get the following outputs in response:
 
 {%highlight bash%}
 -------------------------------------------------------------------------------------
-
 *** Simple Rest API to Check/Balance Small-Bank ***
 
 Please use the (curl-api-test) script for testing.
-
 -------------------------------------------------------------------------------------
 Add money account: 1 -> Crediting: 316.22776601683793319988
 :> Successful transaction
