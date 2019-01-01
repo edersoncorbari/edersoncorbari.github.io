@@ -4,11 +4,9 @@ permalink: /about/
 title: "About"
 ---
 
-> Hi there - My name is Ederson de Moura Corbari, I'm a software engineer. I currently work with Machine Learning and Air Data Computer, I have already worked with software analysis, requirements survey, lecture and training, using various tools and programming languages such as C/C++, Python, Scala, Bash, SmallTalk, MatLab, Java, PHP among others.
+> Hi there - My name is Ederson Corbari, I'm a software engineer. I currently work with Machine Learning and Air Data Computer, I have already worked with software analysis, requirements survey, lecture and training, using various tools and programming languages such as C/C++, Python, Scala, Bash, SmallTalk, MatLab, Java, PHP among others.
 
-<figure>
-    <a href="/assets/images/profile.png"><img src="/assets/images/profile.png"></a>
-</figure>
+<figure><a href="/assets/images/profile.png"><img src="/assets/images/profile.png"></a></figure>
 
 ## Misc facts
 
