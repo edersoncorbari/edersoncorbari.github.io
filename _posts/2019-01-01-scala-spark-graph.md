@@ -17,6 +17,8 @@ tags:
 
 # Overview
 
+This article was also published on the site: [https://dzone.com/articles/bigdata-developing-a-graph-in-spark-and-scala](https://dzone.com/articles/bigdata-developing-a-graph-in-spark-and-scala).
+
 Recently in my work I needed to create a solution using graph to create a hierarchy of relationship between employees of the company. 
 This is a simple problem, but I had never done it in the BigData area and using [Apache Graphx](https://spark.apache.org/graphx/).
 
@@ -146,4 +148,4 @@ Graph theory is something we see in discrete math in high school and then we go 
   * [https://dzone.com/articles/processing-hierarchical-data-using-spark-graphx-pr](https://dzone.com/articles/processing-hierarchical-data-using-spark-graphx-pr)
   * [Spark Graphx in Action](https://www.manning.com/books/spark-graphx-in-action)
 
-<strong>Gotcha!</strong>
+<strong>Thanks!</strong>
