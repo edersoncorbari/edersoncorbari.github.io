@@ -18,8 +18,8 @@ tags:
 
 # Overview
 
-<!--This article was also published on the site: [https://dzone.com/articles/hdfs-offline-analysis-of-fsimage-metadata](https://dzone.com/articles/hdfs-offline-analysis-of-fsimage-metadata).
--->
+This article was also published on the site: [https://dzone.com/articles/hdfs-offline-analysis-of-fsimage-metadata](https://dzone.com/articles/hdfs-offline-analysis-of-fsimage-metadata).
+
 HDFS that is part of Hadoop has a command to download a current namenode snapshot. With this image we can load via Spark or make an ingestion in Hive to analyze the data and verify how is the use of HDFS.
 
 The HDFS file system metadata are stored in a file called the FsImage. Contained in this snapshot we have:
