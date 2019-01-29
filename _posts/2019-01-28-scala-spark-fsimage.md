@@ -3,7 +3,7 @@ date:   2019-01-28
 title: "HDFS offline analysis of FsImage metadata"
 categories: 
     - Tutorials
-excerpt: Loading an XML into spark and parsing HDFS offline data.
+excerpt: We take a look at how to analyze and visualize metadata stored in XML files using some open source big data tools, such as HDFS, Hive, and GnuPlot.
 tags: 
     - FsImage
     - Spark
