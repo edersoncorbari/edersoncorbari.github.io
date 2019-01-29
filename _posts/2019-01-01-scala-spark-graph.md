@@ -3,7 +3,7 @@ date:   2019-01-01
 title: "BigData Developing a graph in spark and scala"
 categories: 
     - Tutorials
-excerpt: Developing and modeling a top-down graph for employee hierarchy.
+excerpt: A discussion of some of the basics of graph theory and how to apply this theory in code using Scala and the Spark framework.
 tags: 
     - Graph 
     - Spark
