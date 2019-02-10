@@ -18,7 +18,7 @@ tags:
 
 # Overview
 
-This article was also published on the site: [https://www.javacodegeeks.com/2019/02/small-bank-application-clojure.html](https://www.javacodegeeks.com/2019/02/small-bank-application-clojure.html).
+This article was also published on the site: [Java Code Geeks](https://www.javacodegeeks.com/2019/02/small-bank-application-clojure.html).
 
 [Clojure](https://en.wikipedia.org/wiki/Clojure) is a passionate language that uses strong mathematical expressions for you to write a code, I think it's cool. I am not a language expert, in fact in any language, I have a general profile, I decided to create a small banking application for study and testing purposes.
 
