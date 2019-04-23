@@ -3,7 +3,7 @@ date:   2019-04-23
 title: "An Introduction to Quantum Computing - P1"
 categories: 
     - Tutorials
-excerpt: Quantum computing is a fantastical, fascinating, disruptive area that breaks down the classic paradigms of computing.
+excerpt: Quantum computing is a fantastical, fascinating, disruptive area that breaks down the classic paradigms of computing. See more details of quantum supremacy.
 tags: 
     - Quantum
     - Computer
