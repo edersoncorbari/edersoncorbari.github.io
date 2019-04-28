@@ -236,6 +236,7 @@ The next step in this article is to install and configure our environment to cre
 Documents that helped in the publication of this article:
 
   * [Practical Quantum Computing for Developers](https://www.amazon.com/Practical-Quantum-Computing-Developers-Programming/dp/1484242173)
-
+  * [Quantum computing with realistically noisy devices](https://www.nature.com/articles/nature03350)
+  
 <strong>Thanks!</strong>
 
