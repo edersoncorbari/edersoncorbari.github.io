@@ -14,12 +14,12 @@ title: "About"
 * My first computer was an IBM *RS/6000* model [M20](https://en.wikipedia.org/wiki/RS/6000) running Unix [AIX](https://en.wikipedia.org/wiki/IBM_AIX).
 * I'm **passionate** about programming and software development since it allows me to use my brain in order to solve puzzles, and gives me a power to create something from a scratch with my own-defined logic.
 * I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/), [Slackware](http://www.slackware.com) and [OpenSUSE](https://www.opensuse.org)  as a workstation.
+* I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
 <!--
 * In my **spare time** I like to practice some sport, and review my family and friends. See [My Family Album](https://photos.app.goo.gl/3Wks3WgSdZF8j5FeA).
 * I also play a little piano, and I like to listen to songs of the most varied genres.
 * I also like aviation I am currently doing the pilot course (PP) private in the [Aero Club](http://aeroclubesp.com.br/) of S&atilde;o Paulo, Brazil.
 -->
-* I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
 
 ## This site
 
