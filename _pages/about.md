@@ -17,7 +17,8 @@ title: "About"
 <!--
 * In my **spare time** I like to practice some sport, and review my family and friends. See [My Family Album](https://photos.app.goo.gl/3Wks3WgSdZF8j5FeA).
 * I also play a little piano, and I like to listen to songs of the most varied genres.
-* I also like aviation I am currently doing the pilot course (PP) private in the [Aero Club](http://aeroclubesp.com.br/) of S&atilde;o Paulo, Brazil.-->
+* I also like aviation I am currently doing the pilot course (PP) private in the [Aero Club](http://aeroclubesp.com.br/) of S&atilde;o Paulo, Brazil.
+-->
 * I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
 
 ## This site
