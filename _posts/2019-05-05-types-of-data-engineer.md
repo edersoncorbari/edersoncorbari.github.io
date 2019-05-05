@@ -1,6 +1,6 @@
 ---
 date:   2019-05-05
-title: "The types of data engineers"
+title: "The types of Data Engineers"
 categories: 
     - Tutorials
 excerpt: Looking at the job market is mapping the types 3 types of data engineer in the big data area.
