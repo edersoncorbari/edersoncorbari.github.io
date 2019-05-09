@@ -14,31 +14,23 @@ tags:
 
 # Overview 
 
-We all know that in the last few years the position of data engineer is high on the market, together
-with data science. 
+We all know that in the last few years the position of data engineer, together with data science, has been in high demand on the market.
 
-However we can still observe in the market, a certain discrepancy in the technical profile
-of the data engineer. I'm talking about this point specifically for the Latin American region, maybe elsewhere around
-in the rest of the world this is more advanced.
+However, we can still observe in the market a certain discrepancy in the technical profile of a data engineer. I’m talking about this point specifically for the Latin American region, maybe elsewhere in the world this is more advanced.
 
-Companies have difficulty hiring and mapping profiles properly, especially consulting companies, and often end up generalizing 
-the profile of the vacancy, announcing the vacancy simply (Data Engineer). 
+Companies have difficulty hiring and mapping profiles properly, especially consulting companies, and often end up generalizing the profile of the vacancy, announcing the vacancy simply as 'Data Engineer.'
 
-They even end up with people who are (relational database) used to solving problems with SQL for projects where you need a 
-programming skill (coding), or sometimes a more data analysis profile.
+They even end up with people who are (relational database) used to solving problems with SQL for projects where you need a programming skill (coding), or sometimes more of a data analysis profile.
 
-It happens! We have different data engineer profiles, basically I thought of 3, I will detail the following types.
+It happens! We have different data engineer profiles, basically I thought of three, whichI will detail the following types.
 
 ## 1. Analytical Skill
 
-This engineer has a more analytical skill, usually people with training in the fields of: Computer Science, Mathematics, Physics.
+This engineer has a more analytical skill set, usually people with training in the fields of computer science, mathematics, and physics.
 
-This engineer is responsible for scaling Machine Learning models and productization these models. He has relevant knowledge in the area 
-of Data Science and knows how to (coding) very well.
+This engineer is responsible for scaling machine learning models and making these models fit for production environments. They have relevant knowledge in the area of data science and know how to code very well.
 
-This engineer knows the sklearn, tensorflow, keras, this professional adapts the model of the Data Scientists defines
-the design patterns and makes this model run in production for millions of users to use. I think that
-the most difficult profile to find currently.
+This engineer knows the scikit-learn, Tensorflow, and Keras; this professional adapts the models/architectures created by data scientists, defines the design patterns, and makes this model run in production for millions of users to use. I think this is currently the most difficult profile to find.
 
 ### 1.1 Skills:
 
@@ -50,11 +42,9 @@ the most difficult profile to find currently.
 
 ## 2. Builder Skill
 
-This engineer has a profile focused on the monitoring of resources, provisioning, pipeline, volumetry, this professional
-knows how to raise a cluster from scratch, knows the solutions of APIs/Libs and has domain of them. 
+This engineer has a profile focused on the monitoring of resources, provisioning, pipeline, and volumetry. This professional knows how to raise a cluster from scratch, knows the solutions of APIs/libraries, and has a good knowledge of them.
 
-Generally, this professional has training in (information system, project management). Does the hard work of saving terabytes 
-of data and leaving the collection services in place. 
+Generally, this professional has training in information systems and project management, and does the hard work of saving terabytes of data and leaving the collection services in place.
 
 ### 2.1 Skills:
 
@@ -67,11 +57,9 @@ of data and leaving the collection services in place.
 
 ## 3. Developer (Code)
 
-This engineer is a specialist in developing Big Data, batch or real-time applications. 
+This engineer is a specialist in developing big data, batch, or real-time applications.
 
-Has a great knowledge of Software Architecture, standards and programming languages, usually this professional 
-has moved from the software development area to the Big Data area. They have a background in Computer Science 
-and Information Systems.
+A developer has a great knowledge of software architecture, standards, and programming languages. Usually this professional has moved from the software development area to the big data area. They have a background in computer science and information systems.
 
 ### 3.1 Skills:
 
@@ -83,9 +71,7 @@ and Information Systems.
 
 ## Conclusion 
 
-That's the 3 main profiles, of course there are always exceptions to the rules. The data engineering area is relatively new, 
-but that's a perception I see in the marketplace where I work. In the case of consulting companies it is common to see a 
-professional with analytical skill, performing the task of a builder profile and vice versa.
+These are the thee main profiles of data engineers; of course there are always exceptions to the rules. The data engineering field is relatively new, but that’s a perception I see in the marketplace where I work. In the case of consulting companies, it is common to see a professional with analytical skills performing the task of a builder profile and vice versa.
 
 <b>Thanks!</b>
 
