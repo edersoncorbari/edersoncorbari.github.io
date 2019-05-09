@@ -14,6 +14,8 @@ tags:
 
 # Overview 
 
+This article was also published on the site: [https://dzone.com/articles/the-types-of-data-engineers](https://dzone.com/articles/the-types-of-data-engineers).
+
 We all know that in the last few years the position of data engineer, together with data science, has been in high demand on the market.
 
 However, we can still observe in the market a certain discrepancy in the technical profile of a data engineer. I’m talking about this point specifically for the Latin American region, maybe elsewhere in the world this is more advanced.
