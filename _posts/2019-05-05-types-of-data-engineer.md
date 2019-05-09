@@ -20,7 +20,7 @@ We all know that in the last few years the position of data engineer, together w
 
 However, we can still observe in the market a certain discrepancy in the technical profile of a data engineer. I’m talking about this point specifically for the Latin American region, maybe elsewhere in the world this is more advanced.
 
-Companies have difficulty hiring and mapping profiles properly, especially consulting companies, and often end up generalizing the profile of the vacancy, announcing the vacancy simply as 'Data Engineer.'
+Companies have difficulty hiring and mapping profiles properly, especially consulting companies, and often end up generalizing the profile of the vacancy, announcing the vacancy simply as Data Engineer.
 
 They even end up with people who are (relational database) used to solving problems with SQL for projects where you need a programming skill (coding), or sometimes more of a data analysis profile.
 
