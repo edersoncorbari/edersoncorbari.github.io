@@ -3,10 +3,10 @@ date:   2019-07-07
 title: "Writing Micro Service in Scala"
 categories: 
     - Tutorials
-excerpt: Writing a micro service in Scala using the concept of Hexagonal Architecture.
+excerpt: Writing a micro-service in Scala using the concept of Hexagonal Architecture.
 tags: 
     - Scala
-    - Micro Service
+    - Micro-Services
     - Hexagonal Architecture
     - Finagle
     - Docker
@@ -31,7 +31,7 @@ and the source code is available in GitHub. I also did a similar experiment in u
 
 Let's go to the requirements.
 
-## 1. Micro-Service requirements 
+## 1. Micro-Service Requirements 
 
 Create a micro-service that checks and creates a hypothetical bank account.
 
@@ -123,7 +123,7 @@ EndPoint *balanceAccount* to see the balance available to the user.
 
 ### 1.2 Transactional Memory and Concurrency Control
 
-When we are talking about microservice, we have to guarantee the atomicity of the code, so that no undue competition occurs. To control 
+When we are talking about micro-service, we have to guarantee the atomicity of the code, so that no undue competition occurs. To control 
 concurrency the ScalaSTM was used.
 
   * <a href="https://nbronson.github.io/scala-stm/" target="_blank">https://nbronson.github.io/scala-stm/</a>
@@ -160,7 +160,7 @@ Other tools used in the project are in the order below:
   * <a href="http://www.scalatest.org/" target="_blank">http://www.scalatest.org/</a>
 
 
-### 1.4 Building the project
+### 1.4 Building the Project
 
 To build the project can follow the instructions in the own repository of the git hub located here:
 
