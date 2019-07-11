@@ -16,7 +16,7 @@ tags:
 
 # Overview 
 
-<!-- This article was also published on the site: [https://dzone.com/articles/the-types-of-data-engineers](https://dzone.com/articles/the-types-of-data-engineers). -->
+This article was also published on the site: [https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex](https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex).
 
 **Scala** is a language that I have been using extensively in my work, but with the focus on Big Data using Spark for data processing.
 
