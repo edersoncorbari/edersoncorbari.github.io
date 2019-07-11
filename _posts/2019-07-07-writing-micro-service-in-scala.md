@@ -3,7 +3,7 @@ date:   2019-07-07
 title: "Writing Micro Service in Scala"
 categories: 
     - Tutorials
-excerpt: A software developer explores how to create HTTP REST end-points for use in a microservice application using the Scala language and Hexagonal Architecture.
+excerpt: How to create HTTP REST end-points for use in a microservice application using the Scala language and Hexagonal Architecture.
 tags: 
     - Scala
     - Micro-Services
