@@ -168,10 +168,10 @@ This setting controls forecasts and is linked with how much and what kind of dat
 ## 8. References
 
 To development this demonstration project the books were used:
-
-  * 6.1. Scala Machine Learning Projects
-  * 6.2. Reactive Programming with Scala and Akka
-
+                                                                                                   
+  * <a href="https://www.amazon.com/Scala-Machine-Learning-Projects-real-world-ebook/dp/B079K52VVK" target="_blank">Scala Machine Learning Projects</a>
+  * <a href="https://www.amazon.com/Reactive-Programming-Scala-Akka/dp/1783984341" target="_blank">Reactive Programming with Scala and Akka</a>
+  
 And the Spark ML Documentation:
 
   * <a href="https://spark.apache.org/docs/2.2.0/ml-collaborative-filtering.html" target="_blank">https://spark.apache.org/docs/2.2.0/ml-collaborative-filtering.html</a>
