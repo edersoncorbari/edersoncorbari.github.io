@@ -4,7 +4,7 @@ permalink: /
 header:
   overlay_image: /assets/images/home-page.jpg
   caption:
-excerpt: 'Professional blog containing tutorials on software development and systems administration.'
+excerpt: 'Uma vez que você tenha experimentado voar, você andará pela terra com seus olhos voltados para céu, pois lá você esteve e para lá você desejará voltar. Leonardo da Vinci.'
 feature_row:
   - image_path: /assets/images/home-tutorials.jpg
     title: "Coding tutorials"
