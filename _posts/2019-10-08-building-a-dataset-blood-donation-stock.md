@@ -24,7 +24,7 @@ This article was also published on the site: [https://dzone.com/articles/a-small
 
 I was looking to analyze the blood donation data from Brazilian blood centers. To my surprise this data is not standardized, nor is there an API to show this information. 
 
-So the way I found it was to create a web-scraping to read this information. I used for this study the [Pró-Sangue Foundation](http://www.prosangue.sp.gov.br) of the state of Sao Paulo - Brazil.
+So the way I found it was to create a web-scraping to read this information. I used for this study the [Pró-Sangue Foundation](http://www.prosangue.sp.gov.br) of the state of São Paulo - Brazil.
 
 The solution was to create a web-scraping to extract this information from the site.
 
