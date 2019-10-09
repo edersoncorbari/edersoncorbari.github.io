@@ -17,9 +17,7 @@ tags:
 
 # Overview 
 
-<!-- 
-This article was also published on the site: [https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex](https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex). 
--->
+This article was also published on the site: [https://dzone.com/articles/recommendation-system-using-spark-ml-akka-and-cass](https://dzone.com/articles/recommendation-system-using-spark-ml-akka-and-cass). 
 
 Building a recommendation system with **Spark** is a simple task. Spark's machine learning library already does all the hard work for us.
 
