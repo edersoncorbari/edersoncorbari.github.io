@@ -17,7 +17,7 @@ tags:
 
 # Overview 
 
-This article was also published on the site: [https://dzone.com/articles/recommendation-system-using-spark-ml-akka-and-cass](https://dzone.com/articles/recommendation-system-using-spark-ml-akka-and-cass). 
+This article was also published on the sites: [Java Code Geeks](https://www.javacodegeeks.com/2019/10/recommendation-system-using-spark-ml-akka-cassandra.html) and [DZone](https://dzone.com/articles/recommendation-system-using-spark-ml-akka-and-cass).
 
 Building a recommendation system with **Spark** is a simple task. Spark's machine learning library already does all the hard work for us.
 
