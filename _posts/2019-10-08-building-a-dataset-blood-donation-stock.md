@@ -18,9 +18,7 @@ tags:
 
 # Overview 
 
-<!-- 
-This article was also published on the site: [https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex](https://dzone.com/articles/a-small-micro-service-developed-in-scala-using-hex). 
--->
+This article was also published on the site: [https://dzone.com/articles/building-a-dataset-with-blood-donation-stock-data](https://dzone.com/articles/building-a-dataset-with-blood-donation-stock-data).
 
 I was looking to analyze the blood donation data from Brazilian blood centers. To my surprise this data is not standardized, nor is there an API to show this information. 
 
