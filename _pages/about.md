@@ -16,6 +16,10 @@ title: "About"
 * I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/), [Slackware](http://www.slackware.com) and [OpenSUSE](https://www.opensuse.org)  as a workstation.
 * I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
 
+## Photos
+
+* My family album: [Vita e Famiglia](https://flic.kr/s/aHsmJcm9oJ)
+
 ## This site
 
 In the beginning the main reason I created this site was to document tips and tricks that I learned through my daily work. Very soon, however, I discovered that framing my posts in a form of a tutorial is much more suitable.
