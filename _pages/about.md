@@ -18,7 +18,7 @@ title: "About"
 
 ## Photos
 
-* My family album: [Vita e Famiglia](https://flic.kr/s/aHsmJcm9oJ)
+* My family album: [Vita e Famiglia](https://www.flickr.com/photos/185399775@N06/)
 
 ## This site
 
