@@ -24,5 +24,5 @@ title: "About"
 
 In the beginning the main reason I created this site was to document tips and tricks that I learned through my daily work. Very soon, however, I discovered that framing my posts in a form of a tutorial is much more suitable.
 
-**Note:** this site theme was shamelessly forked from an awesome Jekyll theme [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/) by [Michael Rose](https://mademistakes.com/).
+**Note:** this site theme was shamelessly forked from an awesome Jekyll theme [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes/) by [Victoria Rudakova](Victoria Rudakova).
 {: .notice--info}
