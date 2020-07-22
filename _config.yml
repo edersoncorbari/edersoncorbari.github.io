@@ -19,7 +19,7 @@ favicon                  : "assets/images/icon/favicon.ico"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : "" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : "edersoncorbari" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -27,7 +27,7 @@ comments:
   facebook:
     appid                :
     num_posts            : 5 # 5 (default)
-    colorscheme          : "light" # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
@@ -77,10 +77,10 @@ analytics:
 author:
   name             : "Ederson Corbari"
   avatar           : "/assets/images/profile.png"
-  bio              : "I'm a software engineer."
+  bio              : "I'm a computer scientist."
   location         : "S&atilde;o Paulo, SP, BRA"
   email            : "ecorbari@protonmail.com"
-  uri              : "http://www.semantix.com.br"
+  uri              : "https://renovabr.org/en/home/"
   bitbucket        :
   codepen          :
   dribbble         :
