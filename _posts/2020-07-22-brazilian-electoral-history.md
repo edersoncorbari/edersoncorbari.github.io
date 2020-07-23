@@ -263,7 +263,7 @@ More details can be found in RenovaBR's public repository:
 
 ## 6. Authors
 
-  * Darlan Dal-Bianco - <darlan at renovabr.org>
-  * Ederson Corbari - <ederson at renovabr.org>
+  * Darlan Dal-Bianco - darlan at renovabr.org
+  * Ederson Corbari - ederson at renovabr.org
 
 **Thanks!**
