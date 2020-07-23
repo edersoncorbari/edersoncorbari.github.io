@@ -130,7 +130,8 @@ Check the complete code example here:
 
 The result of the file, computing the electoral coefficient for all brazilian cities in the *2016* elections:
 
-IMG
+![Screen1]({{ site.url }}{{ site.baseurl }}/assets/images/blog/result-quotient-2016.png)
+{: .align-center}
 
 ## 4. Some SQL queries
 
