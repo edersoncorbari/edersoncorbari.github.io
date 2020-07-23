@@ -21,8 +21,6 @@ tags:
 
 Recently, we are working on structuring data on the **Brazilian Electoral History**. I work at a Brazilian non-profit political school, called RenovaBR. We use data from the **Brazilian Electoral History** to develop analyzes and understand patterns between types of candidates. 
 
-
-
 In Brazil there is a public organization responsible for the elections, called <a href="https://en.wikipedia.org/wiki/Superior_Electoral_Court" target="_blank">TSE</a>,
 that entity makes the data available as transparency to the population in a Data Repository. This data is available in CSV and TXT files, but without many standards. So we had the need to create a structure for this data and make ETL transformations, so that we can make analyzes from it.
 
@@ -51,13 +49,13 @@ We automate the entire process to create the tables in the database and make the
 
 <a href="https://github.com/renovabr/electoral-history" target="_blank">https://github.com/renovabr/electoral-history</a>
 
-On a machine with *16 GB* of *4 core*, it takes around 10 hours to process all data.
+On a machine with *16 GB / 4 core*, it takes around 10 hours to process all data.
 
-## 3. Calculating the electoral coefficient
+## 3. Calculating the Electoral Coefficient
 
 Also known as <a href="https://en.wikipedia.org/wiki/Hare_quota" target="_blank">Hare Quote</a>, it is a method by which the seats in the elections are distributed by the proportional system of votes in conjunction with the party quotient and the distribution of leftovers.
 
-Elections in Brazil use the Brazilian proportional system to legislative seats. The program below calculates the electoral quotient for the 2016 year *Brazilian Municipal Elections*.
+Elections in Brazil use the Brazilian proportional system to legislative seats. The program below calculates the electoral quotient for the *2016* year *Brazilian Municipal Elections*.
 
 {%highlight python%}
 def main():
@@ -140,7 +138,7 @@ There is a data dictionary containing the description of the tables and fields:
 
   * <a href="https://github.com/renovabr/electoral-history/tree/master/doc/dictionary-data.xlsx" target="_blank">electoral-history/doc/dictionary-data.xlsx</a>
 
-Checking the total number of votes of the Governors of the state of Santa Catarina in the city of Florianópolis in the first shift of the *2018* elections.
+Checking the total number of votes of the Governors of the state of Santa Catarina in the city of *Florianópolis* in the first shift of the *2018* elections.
 
 {%highlight sql%}
 SELECT
@@ -181,7 +179,7 @@ Result:
 
 
 Checking the total number of votes of the Governors of the State of *São Paulo* in the first shift of the 
-2018 elections.
+*2018* elections.
 
 {%highlight sql%}
 SELECT
@@ -253,7 +251,6 @@ Result:
 | OSASCO                 |  176109 |
 | RIBEIRÃO PRETO         |  166728 |
 | JUNDIAÍ                |  143028 |
-
 
 ## 5. Conclusion
 
