@@ -260,6 +260,9 @@ More details can be found in RenovaBR's public repository:
 
   * <a href="https://github.com/renovabr/electoral-history/" target="_blank">https://github.com/renovabr/electoral-history/</a>
 
-In another tutorial I will show how the graphics were.
-  
+## 6. Authors
+
+  * Darlan Dal-Bianco - darlan at renovabr.org
+  * Ederson Corbari - ederson at renovabr.org
+
 **Thanks!**
