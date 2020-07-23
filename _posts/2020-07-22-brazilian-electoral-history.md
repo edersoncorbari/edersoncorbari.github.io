@@ -24,7 +24,7 @@ Recently, we are working on structuring data on the **Brazilian Electoral Histor
 In Brazil there is a public organization responsible for the elections, called <a href="https://en.wikipedia.org/wiki/Superior_Electoral_Court" target="_blank">TSE</a>, that entity makes the data available as transparency to the population in a 
 <a href="http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais-1/" target="_blank">Data Repository</a>. This data is available in CSV and TXT files, but without many standards. So we had the need to create a structure for this data and make ETL transformations, so that we can make analyzes from it.
 
-We currently process data on Brazilian elections for the following years: *2010, 2012, 2014, 2016, 2018*. The full import of every year totals *26.151.069* million lines in the database.
+We currently process data on brazilian elections for the following years: *2010, 2012, 2014, 2016, 2018*. The full import of every year totals *26.151.069* million lines in the database.
 
 So an architecture was created using the following technologies:
 
