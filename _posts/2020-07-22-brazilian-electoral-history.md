@@ -19,10 +19,10 @@ tags:
 
 <!-- This article was also published on the site: [https://dzone.com/articles/building-a-dataset-with-blood-donation-stock-data](https://dzone.com/articles/building-a-dataset-with-blood-donation-stock-data). -->
 
-Recently, we are working on structuring data on the **Brazilian Electoral History**. I work at a Brazilian non-profit political school, called RenovaBR. We use data from the **Brazilian Electoral History** to develop analyzes and understand patterns between types of candidates. 
+Recently, we are working on structuring data on the **Brazilian Electoral History**. I work at a Brazilian non-profit political school, called <a href="https://renovabr.org/en/home/" target="_blank">RenovaBR</a>. We use data from the **Brazilian Electoral History** to develop analyzes and understand patterns between types of candidates. 
 
-In Brazil there is a public organization responsible for the elections, called <a href="https://en.wikipedia.org/wiki/Superior_Electoral_Court" target="_blank">TSE</a>,
-that entity makes the data available as transparency to the population in a Data Repository. This data is available in CSV and TXT files, but without many standards. So we had the need to create a structure for this data and make ETL transformations, so that we can make analyzes from it.
+In Brazil there is a public organization responsible for the elections, called <a href="https://en.wikipedia.org/wiki/Superior_Electoral_Court" target="_blank">TSE</a>, that entity makes the data available as transparency to the population in a 
+<a href="http://www.tse.jus.br/eleicoes/estatisticas/repositorio-de-dados-eleitorais-1/" target="_blank">Data Repository</a>. This data is available in CSV and TXT files, but without many standards. So we had the need to create a structure for this data and make ETL transformations, so that we can make analyzes from it.
 
 We currently process data on Brazilian elections for the following years: *2010, 2012, 2014, 2016, 2018*. The full import of every year totals *26.151.069* million lines in the database.
 
