@@ -16,7 +16,9 @@ title: "About"
 * I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/), [Slackware](http://www.slackware.com) and [OpenSUSE](https://www.opensuse.org)  as a workstation.
 * I am passionate about horses, wines and aviation.
 * I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
+<!--
 * Some personal photos: [Flickr](https://www.flickr.com/photos/185399775@N06/with/49043426621/).
+-->
 
 ## This site
 
