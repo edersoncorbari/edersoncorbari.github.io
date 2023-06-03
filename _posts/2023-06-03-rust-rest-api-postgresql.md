@@ -50,7 +50,7 @@ To compile the project you need to have **Rust** installed on your workstation. 
 
   * <a href="https://www.rust-lang.org/tools/install" target="_blank">https://www.rust-lang.org/tools/install</a>
 
-If you want to compile the project manually, you need to have a PostgreSQL database running. And execute the export of 
+If you want to compile the project manually, you need to have a **PostgreSQL** database running. And execute the export of 
 the environment variable with the parameters of the connection:
 
 {%highlight bash%}
@@ -75,9 +75,9 @@ Rust creates the build in the target folder at the root of the project. To run t
 $ cargo run
 {%endhighlight%}
 
-*But remember if you need to have a running postgreSQL database!*
+*But remember if you need to have a running PostgreSQL database!*
 
-If you don't want to compile the project manually, just run Docker to create the containers and simply 
+If you don't want to compile the project manually, just run **Docker** to create the containers and simply 
 test the endpoints!
 
 ## 4. Tests
@@ -92,7 +92,7 @@ The available endpoints are:
 | GET    | /users   | *not required* | *not required* |
 | DELETE | /users/  | ID             | *not required* |
 
-You can test using the Curl command, or using Postman or something similar. For Postman, just import the collection in 
+You can test using the **curl** command, or using **Postman** or something similar. Using Postman, just import the collection in 
 the project's <a href="https://github.com/edersoncorbari/rust-rest-api/blob/main/doc/Rust-Rest-Api.postman_collection.json" target="_blank">doc</a> 
 folder.
 
