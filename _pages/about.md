@@ -13,12 +13,10 @@ title: "About"
 * My **first programming language** was *C*, and my first programming book was [C - programming language](https://www.amazon.com/Programming-Language-2nd-Brian-Kernighan/dp/0131103628). 
 * My first computer was an IBM *RS/6000* model [M20](https://en.wikipedia.org/wiki/RS/6000) running Unix [AIX](https://en.wikipedia.org/wiki/IBM_AIX).
 * I'm **passionate** about programming and software development since it allows me to use my brain in order to solve puzzles, and gives me a power to create something from a scratch with my own-defined logic.
-* I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/), [Slackware](http://www.slackware.com) and [OpenSUSE](https://www.opensuse.org)  as a workstation.
+* I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/) and [Slackware](http://www.slackware.com) as a workstation.
 * I am passionate about horses, wines and aviation.
 * I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
-<!--
 * Some personal photos: [Flickr](https://www.flickr.com/photos/185399775@N06/with/49043426621/).
--->
 
 ## This site
 
