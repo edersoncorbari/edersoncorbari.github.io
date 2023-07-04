@@ -4,7 +4,7 @@ permalink: /about/
 title: "About"
 ---
 
-> Hi there - My name is Ederson de Moura Corbari, I'm a Computer Scientist. I currently work with Big Data and Machine Learning, I have already worked with software analysis, requirements survey, lecture and training, using various tools and programming languages such as C/C++, Rust, Python, Scala, Bash, SmallTalk, MatLab, Java, PHP among others.
+> Hi there - My name is Ederson de Moura Corbari, I'm a Computer Scientist. I currently work with Big Data and Machine Learning, I have already worked with software analysis, requirements survey, lecture and training, using various tools and programming languages.
 
 <figure><a href="/assets/images/profile2.png"><img src="/assets/images/profile2.png"></a></figure>
 
@@ -16,7 +16,6 @@ title: "About"
 * I also like Unix-type operating systems. I use [FreeBSD](https://www.freebsd.org/) and [Slackware](http://www.slackware.com) as a workstation.
 * I am passionate about horses, wines and aviation.
 * I really like sitcon friends and wrote something about it here: [Friends](https://edersoncorbari.github.io/friends/).
-* Some personal photos: [Flickr](https://www.flickr.com/photos/185399775@N06/with/49043426621/).
 
 ## This site
 
