@@ -14,119 +14,99 @@ tags:
 
 {% include toc %}
 
-# Overview 
+In the universe of Data Science and Machine Learning 🤖, the Python 🐍 language has been widely adopted, offering an extensive ecosystem of libraries and tools that drive research and development in this field.
 
-I'm starting my studies with the **Rust** dialect. Throughout the article I will show the codes and commands used to build an 
-API with the **Rust** language. For this project, no web framework was used and also no ORM, the language's own native network 
-TCP server is used. 
+However, in the quest to improve the performance and reliability of ML models, I came across the Rust 🦀 language, known for its exceptional execution speed, robust memory management, and support for parallelism. This discovery piqued my curiosity, leading me to explore the possibilities of using Rust as an alternative to scale Machine Learning projects and achieve high performance 🚀.
 
-The idea is to create a **CRUD** of users, where it is possible to execute the following functionalities:
+## The Potential of Rust in Machine Learning
 
-  * Create a users;
-  * List a user with their ID;
-  * List all registered users;
-  * Update a users;
-  * Delete a user.
+As I began my studies in Rust, I quickly realized that its security and performance features could be highly advantageous for developing Machine Learning models in production environments. While Python is widely adopted in the ML community, Rust offers a unique approach, focused on security without compromising speed.
 
-## 1. Project Architecture
+The feared and “annoying” 😠 Rust compiler becomes a valuable ally, preventing us from creating code with potential issues. The emphasis on concepts like “ownership” and “borrowing” in Rust helps avoid common errors, such as invalid references and memory leaks, providing greater reliability to models and facilitating code debugging.
 
-Two containers were created, one for the database and another for the Rest-API.
+## Machine Learning Ecosystem in Rust
 
-![](https://raw.githubusercontent.com/edersoncorbari/rust-rest-api/main/doc/Rust-Rest-Api.png)
+It is true that the Machine Learning ecosystem in Rust is still developing and has not yet reached the breadth of Python’s ecosystem. However, there are already emerging libraries and tools that can be crucial for those wishing to explore this approach.
 
-## 2. The code
+One standout library is tch-rs, which provides access to the PyTorch API for Rust. This library enables the construction 📦 and training of Deep Learning models in a safer and faster programming language. By harnessing the power of PyTorch along with Rust’s efficiency, it is possible to develop Machine Learning models that combine high performance with reliability.
 
-The code is available in: <a href="https://github.com/edersoncorbari/rust-rest-api" target="_blank">https://github.com/edersoncorbari/rust-rest-api</a>
+## Example of Creating a NN for MNIST Digit Classification
 
-## 3. Hands-on
+To illustrate Rust’s potential in Machine Learning, this article will present a practical example of creating a neural network 🧠 for classifying digits in the MNIST dataset. The MNIST dataset consists of 28x28 grayscale images of handwritten digits (0 to 9). Our goal will be to train the neural network to correctly classify these digits.
 
-Cloning the project:
+## Installation and Configuration
+
+Before proceeding, it is essential to ensure that Rust is installed on your system, along with the build-essential packages that contain the necessary compilation programs. The tests were done using a Linux 🐧 machine.
+
+## 1. Download the project from Git 🛠️
 
 {%highlight bash%}
-$ git clone git@github.com:edersoncorbari/rust-rest-api.git
+git clone https://github.com/NeuroQuestAi/rust-nn.git && cd rust-nn
 {%endhighlight%}
 
-To compile the project you need to have **Rust** installed on your workstation. To install click on the link below:
+## 2. Torch 💻
 
-  * <a href="https://www.rust-lang.org/tools/install" target="_blank">https://www.rust-lang.org/tools/install</a>
+The torch version used was version v2.0.0. You can download it directly from the website https://pytorch.org/get-started/locally/, or follow the procedures below via the command line. Package used: (libtorch-cxx11-abi-shared-with-deps-2.0.0+cu118.zip).
 
-If you want to compile the project manually, you need to have a **PostgreSQL** database running. And execute the export of 
-the environment variable with the parameters of the connection:
+In the root folder of the project, create a libs directory:
 
 {%highlight bash%}
-$ export DATABASE_URL=postgres://postgres:postgres@localhost:5432/postgres
+mkdir libs
 {%endhighlight%}
 
-Debug mode compilation:
+Now download the Torch lib and unzip it:
 
 {%highlight bash%}
-$ cargo build
+curl -L \
+  "https://download.pytorch.org/libtorch/cu118/libtorch-cxx11-abi-shared-with-deps-2.0.0%2Bcu118.zip"\
+  > libs/libtorch-cxx11-abi-shared-with-deps-2.0.0+cu118.zip
 {%endhighlight%}
 
-Release mode compilation:
+The package is about 2.3 GB. Now unzip the file:
 
 {%highlight bash%}
-$ cargo build --release
+unzip libs/libtorch-cxx11-abi-shared-with-deps-2.0.0+cu118.zip -d libs/
 {%endhighlight%}
 
-Rust creates the build in the target folder at the root of the project. To run the project just run:
+Now it is necessary to export the environment variables:
 
 {%highlight bash%}
-$ cargo run
+export LIBTORCH=`pwd`/libs/libtorch
+export LD_LIBRARY_PATH=`pwd`/libs/libtorch/lib:${LD_LIBRARY_PATH}
 {%endhighlight%}
 
-*But remember if you need to have a running PostgreSQL database!*
+## 3. Datasets 📁
 
-If you don't want to compile the project manually, just run **Docker** to create the containers and simply 
-test the endpoints!
-
-## 4. Tests
-
-The available endpoints are:
-
-| Method | EndPoint | Parameter      | Payload   |
-| ------ | -------- | -------------- | ----------|
-| POST   | /users   | *not required* | *{"name":"User1", "email":"u1@xxx1.com"}* |
-| GET    | /users/  | ID             | *not required* |
-| PUT    | /users/  | ID             | *{"name":"User0", "email":"u0@xxx0.com"}* |
-| GET    | /users   | *not required* | *not required* |
-| DELETE | /users/  | ID             | *not required* |
-
-You can test using the **curl** command, or using **Postman** or something similar. Using Postman, just import the collection in 
-the project's <a href="https://github.com/edersoncorbari/rust-rest-api/blob/main/doc/Rust-Rest-Api.postman_collection.json" target="_blank">doc</a> 
-folder.
-
-### 4.1 Creating a user
+Create the data directory:
 
 {%highlight bash%}
-$ curl -i -H "Content-Type: application/json" -X POST http://127.0.0.1:8080/users -d '{"name":"User1", "email":"u1@xxx1.com"}'
+mkdir data
 {%endhighlight%}
 
-### 4.2 Checking created user with ID 
+Now let’s download the MNIST datasets:
 
 {%highlight bash%}
-$ curl -i -H "Content-Type: application/json" -X GET http://127.0.0.1:8080/users/1
+curl -L "http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz" > data/train-images-idx3-ubyte.gz
+curl -L "http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz" > data/train-labels-idx1-ubyte.gz
+curl -L "http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz" > data/t10k-images-idx3-ubyte.gz
+curl -L "http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz" > data/t10k-labels-idx1-ubyte.gz
 {%endhighlight%}
 
-### 4.3 Updating user data 
+Unzip all files:
 
 {%highlight bash%}
-$ curl -i -H "Content-Type: application/json" -X PUT http://127.0.0.1:8080/users/1 -d '{"name":"User0", "email":"u0@xxx0.com"}' 
+gunzip data/*.gz
 {%endhighlight%}
 
-### 4.4 Checking all registered users 
+## 4. Build and Running 🚀
+
+Now just run the command below to build and run the project:
 
 {%highlight bash%}
-$ curl -i -H "Content-Type: application/json" -X GET http://127.0.0.1:8080/users
+cargo build && cargo run
 {%endhighlight%}
 
-### 4.5 Deleting a user with ID
-
-{%highlight bash%}
-$ curl -i -H "Content-Type: application/json" -X DELETE http://127.0.0.1:8080/users/1
-{%endhighlight%}
-
-For more detailed information, please consult the project's <a href="https://github.com/edersoncorbari/rust-rest-api/" target="_blank">README</a>.
+Project page: https://github.com/NeuroQuestAi/rust-nn
 
 ## 5. Reference
 
