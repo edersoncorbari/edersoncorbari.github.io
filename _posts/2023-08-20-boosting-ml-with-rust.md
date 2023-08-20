@@ -8,8 +8,8 @@ tags:
     - Rust
     - Torch
     - Neural-Network
-    - Rest-API
-    - Docker
+    - PyTorck
+    - Machine-Learning
 ---
 
 {% include toc %}
@@ -17,6 +17,11 @@ tags:
 In the universe of Data Science and Machine Learning 🤖, the Python 🐍 language has been widely adopted, offering an extensive ecosystem of libraries and tools that drive research and development in this field.
 
 However, in the quest to improve the performance and reliability of ML models, I came across the Rust 🦀 language, known for its exceptional execution speed, robust memory management, and support for parallelism. This discovery piqued my curiosity, leading me to explore the possibilities of using Rust as an alternative to scale Machine Learning projects and achieve high performance 🚀.
+
+<p align="center">
+    <img src=https://miro.medium.com/v2/resize:fit:720/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg>
+    <br><i>Image from Unsplash by Clark Van Der Beken</i></br>
+</p>
 
 ## The Potential of Rust in Machine Learning
 
@@ -57,9 +62,7 @@ mkdir libs
 Now download the Torch lib and unzip it:
 
 {%highlight bash%}
-curl -L \
-  "https://download.pytorch.org/libtorch/cu118/libtorch-cxx11-abi-shared-with-deps-2.0.0%2Bcu118.zip"\
-  > libs/libtorch-cxx11-abi-shared-with-deps-2.0.0+cu118.zip
+curl -L "https://download.pytorch.org/libtorch/cu118/libtorch-cxx11-abi-shared-with-deps-2.0.0%2Bcu118.zip" libs/libtorch-cxx11-abi-shared-with-deps-2.0.0+cu118.zip
 {%endhighlight%}
 
 The package is about 2.3 GB. Now unzip the file:
@@ -110,5 +113,4 @@ Project page: https://github.com/NeuroQuestAi/rust-nn
 
 ## 5. Reference
 
-  *  <a href="https://www.manning.com/books/rust-in-action" target="_blank">Rust in Action</a>;
-  *  <a href="https://github.com/FrancescoXX" target="_blank">GitHub FrancescoXX</a>.
+  * https://ecorbari.medium.com/boosting-ml-with-rust-high-performance-and-reliability-with-a-neural-network-example-6f97f1df2493
