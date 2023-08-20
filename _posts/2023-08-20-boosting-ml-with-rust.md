@@ -86,7 +86,7 @@ Create the data directory:
 mkdir data
 {%endhighlight%}
 
-Now let’s download the MNIST datasets:
+Now let’s download the [MNIST](https://yann.lecun.com/exdb/mnist/) datasets:
 
 {%highlight bash%}
 curl -L "http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz" > data/train-images-idx3-ubyte.gz
