@@ -18,10 +18,8 @@ In the universe of Data Science and Machine Learning 🤖, the Python 🐍 langu
 
 However, in the quest to improve the performance and reliability of ML models, I came across the Rust 🦀 language, known for its exceptional execution speed, robust memory management, and support for parallelism. This discovery piqued my curiosity, leading me to explore the possibilities of using Rust as an alternative to scale Machine Learning projects and achieve high performance 🚀.
 
-<p align="center">
-    <img src=https://miro.medium.com/v2/resize:fit:520/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg>
-    <br><i>Image from Unsplash by Clark Van Der Beken</i></br>
-</p>
+![](https://miro.medium.com/v2/resize:fit:520/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg)
+{: .align-center}
 
 ## The Potential of Rust in Machine Learning
 
