@@ -3,7 +3,7 @@ date:   2023-08-20
 title: "Boosting ML with Rust: High Performance and Reliability with a Neural Network Example"
 categories: 
     - Tutorials
-excerpt: Build a fast Rest API using Rust, PostgreSQL and Docker.
+excerpt: In the universe of Data Science and Machine Learning, the Python language has been widely adopted, offering an extensive ecosystem of libraries and tools that drive research and development in this field.
 tags: 
     - Rust
     - Torch
