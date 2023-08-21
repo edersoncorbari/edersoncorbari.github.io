@@ -20,7 +20,8 @@ However, in the quest to improve the performance and reliability of ML models, I
 
 <p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:520/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg">
-    <br><i>Image from Unsplash by Raphael Renter</i><br></p>
+    <br><i>Image from Unsplash by Raphael Renter</i><br>
+</p>
 
 ## The Potential of Rust in Machine Learning
 
@@ -107,6 +108,10 @@ Now just run the command below to build and run the project:
 {%highlight bash%}
 cargo build && cargo run
 {%endhighlight%}
+
+<p align="center">
+    <img src="https://miro.medium.com/v2/resize:fit:640/1*CNYlK386VJjdIsaEHwrQcw.gif">
+</p>
 
 Project page: [https://github.com/NeuroQuestAi/rust-nn](https://github.com/NeuroQuestAi/rust-nn)
 
