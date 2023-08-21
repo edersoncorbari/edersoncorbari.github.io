@@ -20,7 +20,7 @@ However, in the quest to improve the performance and reliability of ML models, I
 
 <p align="center">
     <img src="https://miro.medium.com/v2/resize:fit:520/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg">
-    <br>Image from Unsplash by Raphael Renter<br></p>
+    <br><i>Image from Unsplash by Raphael Renter</i><br></p>
 
 ## The Potential of Rust in Machine Learning
 
