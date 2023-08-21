@@ -19,7 +19,7 @@ In the universe of Data Science and Machine Learning 🤖, the Python 🐍 langu
 However, in the quest to improve the performance and reliability of ML models, I came across the Rust 🦀 language, known for its exceptional execution speed, robust memory management, and support for parallelism. This discovery piqued my curiosity, leading me to explore the possibilities of using Rust as an alternative to scale Machine Learning projects and achieve high performance 🚀.
 
 <p align="center">
-    <img src=https://miro.medium.com/v2/resize:fit:720/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg>
+    <img src=https://miro.medium.com/v2/resize:fit:520/format:webp/1*WartOdlEjhiXY5AsVtau5Q.jpeg>
     <br><i>Image from Unsplash by Clark Van Der Beken</i></br>
 </p>
 
@@ -109,8 +109,8 @@ Now just run the command below to build and run the project:
 cargo build && cargo run
 {%endhighlight%}
 
-Project page: https://github.com/NeuroQuestAi/rust-nn
+Project page: [https://github.com/NeuroQuestAi/rust-nn](https://github.com/NeuroQuestAi/rust-nn)
 
 ## 5. Reference
 
-  * https://ecorbari.medium.com/boosting-ml-with-rust-high-performance-and-reliability-with-a-neural-network-example-6f97f1df2493
+  * [https://ecorbari.medium.com/boosting-ml-with-rust-high-performance-and-reliability-with-a-neural-network-example-6f97f1df2493](https://ecorbari.medium.com/boosting-ml-with-rust-high-performance-and-reliability-with-a-neural-network-example-6f97f1df2493)
