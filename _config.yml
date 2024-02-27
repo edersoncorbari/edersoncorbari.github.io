@@ -77,14 +77,14 @@ analytics:
 author:
   name             : "Ederson Corbari"
   avatar           : "/assets/images/profile.png"
-  bio              : "I'm a computer scientist."
+  bio              : "I'm a computer scientist and entrepreneur."
   location         : "S&atilde;o Paulo, SP, BRA"
-  email            : "ecorbari@protonmail.com"
-  uri              : "https://neural7.io/en/home/"
+  email            : "ecorbari@proton.me"
+  uri              : "https://neuroquest.ai"
   bitbucket        :
   codepen          :
   dribbble         :
-  flickr           : "185399775@N06"
+  flickr           : 
   facebook         :
   foursquare       :
   github           : "edersoncorbari"
@@ -93,6 +93,7 @@ author:
   instagram        : "ederson.corbari"
   lastfm           :
   linkedin         : "ecorbari"
+  medium           : "https://medium.com/@ecorbari"
   pinterest        :
   soundcloud       :
   stackoverflow    :
